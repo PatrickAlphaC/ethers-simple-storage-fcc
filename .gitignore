@@ -1,3 +1,4 @@
 node_modules
 .env
 SimpleStorage_sol_*
+.notes.md
