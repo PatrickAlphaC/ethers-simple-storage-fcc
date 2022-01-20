@@ -62,7 +62,7 @@ RPC_URL=http://0.0.0.0:8545
 
 PRIVATE_KEY=11ee3108a03081fe260ecdc106554d09d9d1209bcafd46942b10e02943effc4a
 
-1. Compile your code
+4. Compile your code
 
 Run
 
