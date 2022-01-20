@@ -54,11 +54,15 @@ RPC_URL=http://0.0.0.0:8545
 
 3. Hit the key on one of the accounts, and copy the key you see and place it into your `.env` file, similar to what you see in `.env.example`.
 
+<img src="./img/ganache-key.png" alt="ganache" width="500"/>
+
+<img src="./img/ganache-private-key.png" alt="ganache" width="500"/>
+
 `.env` Example:
 
 PRIVATE_KEY=11ee3108a03081fe260ecdc106554d09d9d1209bcafd46942b10e02943effc4a
 
-4. Compile your code
+1. Compile your code
 
 Run
 
