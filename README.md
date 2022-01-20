@@ -26,8 +26,8 @@ Video Coming Soon...
 Clone this repo
 
 ```
-git clone https://github.com/PatrickAlphaC/ethersSimpleStorage
-cd ethersSimpleStorage
+git clone https://github.com/PatrickAlphaC/ethers-simple-storage
+cd ethers-simple-storage
 ```
 
 Then install dependencies
@@ -35,6 +35,10 @@ Then install dependencies
 ```
 npm install
 ```
+
+### Typescript
+
+If you like `typescript`, run `git checkout typescript` then run `npm install`
 
 ## Useage
 
