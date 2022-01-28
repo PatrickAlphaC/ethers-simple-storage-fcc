@@ -38,7 +38,7 @@ npm install
 
 ### Typescript
 
-If you like `typescript`, run `git checkout typescript` then run `npm install`
+If you like `typescript`, run `git checkout typescript` then run `npm install`.
 
 ## Useage
 
@@ -66,7 +66,7 @@ RPC_URL=http://0.0.0.0:8545
 
 PRIVATE_KEY=11ee3108a03081fe260ecdc106554d09d9d1209bcafd46942b10e02943effc4a
 
-4. Compile your code
+4. Compile your Solidity code
 
 Run
 
@@ -76,7 +76,13 @@ npm rum compile
 
 You'll see files `SimpleStorage_sol_SimpleStorage.abi` and `SimpleStorage_sol_SimpleStorage.bin` be created.
 
-5. Run your application
+5. Compile your Typescript code to Javascript
+
+```
+tsc deploy.ts
+```
+
+6. Run your javascript code
 
 ```
 node deploy.js
@@ -100,3 +106,9 @@ USE A METAMASK THAT DOESNT HAVE ANY REAL FUNDS IN IT. Just in case you accidenta
 ```
 node deploy.js
 ```
+
+### Typescript Differences
+
+1. We installed `@types/fs-extra` and `@types/node`
+2. We have a `tsconfig.json` file
+3.
