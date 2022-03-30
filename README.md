@@ -25,7 +25,7 @@ Video Coming Soon...
 
 ### Optional Gitpod
 
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod.
+If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/ethers-simple-storage-fcc)
 
