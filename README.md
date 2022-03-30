@@ -10,27 +10,24 @@ Video Coming Soon...
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
-- [Nodejs & npx](https://nodejs.org/en/)
+- [Nodejs](https://nodejs.org/en/)
   - You'll know you've installed nodejs right if you can run:
-    - `node --version`
-    - And get an ouput like:
-    - `vx.x.x`
-  - You'll know you've installed npx right if you can run:
-    - `npx --version`
-    - And get an ouput like:
-    - `x.x.x`
-    - You might need to install it with npm
+    - `node --version` and get an ouput like: `vx.x.x`
 - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
   - You'll know you've installed yarn right if you can run:
-    - `yarn --version`
-    - And get an output like:
-    - `x.x.x`
+    - `yarn --version` and get an output like: `x.x.x`
     - You might need to install it with npm
 - [ganache](https://trufflesuite.com/ganache/)
   - You'll know you did it right if you can run the application and see:
     <br>
     <img src="./img/ganache-picture.png" alt="ganache" width="200"/>
   - You can alternatively use [ganache-cli](https://www.npmjs.com/package/ganache-cli) or [hardhat](https://hardhat.org/)
+
+### Optional Gitpod
+
+If you can't or don't want to run and install locally, you can work with this repo in Gitpod.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/ethers-simple-storage-fcc)
 
 ## Setup
 
