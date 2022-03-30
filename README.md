@@ -10,11 +10,22 @@ Video Coming Soon...
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
-- [nodejs](https://nodejs.org/en/download/)
-  - You'll know you did it right if you can run `node --version` and you see a response like `vx.x.x`
-- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-  - You'll know you did it right if you can run `npm --version` and you get an output like `x.x.x`
-  - Often `npm` comes with the `nodejs` install
+- [Nodejs & npx](https://nodejs.org/en/)
+  - You'll know you've installed nodejs right if you can run:
+    - `node --version`
+    - And get an ouput like:
+    - `vx.x.x`
+  - You'll know you've installed npx right if you can run:
+    - `npx --version`
+    - And get an ouput like:
+    - `x.x.x`
+    - You might need to install it with npm
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
+  - You'll know you've installed yarn right if you can run:
+    - `yarn --version`
+    - And get an output like:
+    - `x.x.x`
+    - You might need to install it with npm
 - [ganache](https://trufflesuite.com/ganache/)
   - You'll know you did it right if you can run the application and see:
     <br>
@@ -33,12 +44,14 @@ cd ethers-simple-storage
 Then install dependencies
 
 ```
-npm install
+yarn
 ```
+
+> Note: You'll notice in our `package.json` we are using `"solc": "0.8.7-fixed"`. Usually, you'll just be able to do `"solc": "0.8.7"` to get a specific version, but there was a bit of an issue with that one... You'll find out why we use 0.8.7
 
 ### Typescript
 
-If you like `typescript`, run `git checkout typescript` then run `npm install`
+If you like `typescript`, run `git checkout typescript` then run `yarn`
 
 ## Useage
 
@@ -71,7 +84,7 @@ PRIVATE_KEY=11ee3108a03081fe260ecdc106554d09d9d1209bcafd46942b10e02943effc4a
 Run
 
 ```
-npm rum compile
+yarn compile
 ```
 
 You'll see files `SimpleStorage_sol_SimpleStorage.abi` and `SimpleStorage_sol_SimpleStorage.bin` be created.

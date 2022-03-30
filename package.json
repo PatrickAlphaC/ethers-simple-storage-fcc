@@ -4,7 +4,7 @@
     "ethers": "^5.5.3",
     "hardhat": "^2.8.3",
     "prettier": "^2.5.1",
-    "solc": "^0.8.8"
+    "solc": "0.8.7-fixed"
   },
   "scripts": {
     "compile": "npx solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol"
