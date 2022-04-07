@@ -3,3 +3,4 @@ node_modules
 SimpleStorage_sol_*
 .notes.md
 deploy.js
+.encryptedKey.json
