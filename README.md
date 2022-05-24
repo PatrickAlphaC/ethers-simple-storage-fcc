@@ -79,7 +79,7 @@ PRIVATE_KEY=11ee3108a03081fe260ecdc106554d09d9d1209bcafd46942b10e02943effc4a
 Run
 
 ```
-npm rum compile
+yarn hardhat compile
 ```
 
 You'll see files `SimpleStorage_sol_SimpleStorage.abi` and `SimpleStorage_sol_SimpleStorage.bin` be created.
@@ -95,6 +95,8 @@ tsc deploy.ts
 ```
 node deploy.js
 ```
+
+You could also just do `ts-node deploy.ts`.
 
 ### Deploying to a testnet
 
