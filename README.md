@@ -92,6 +92,26 @@ You'll see files `SimpleStorage_sol_SimpleStorage.abi` and `SimpleStorage_sol_Si
 ```
 node deploy.js
 ```
+### For WSL users
+
+1. Run
+```
+yarn add ganache
+```
+
+2. Change Server settings in Ganache
+
+Settings > Server > Host Name 
+
+Change Host Name to vEthernet (WSL)
+
+3. Run your application 
+
+``` 
+node deploy.js
+```
+
+
 
 ### Deploying to a testnet
 
