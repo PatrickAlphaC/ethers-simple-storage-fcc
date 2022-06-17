@@ -96,7 +96,8 @@ tsc deploy.ts
 node deploy.js
 ```
 
-You could also just do `ts-node deploy.ts`.
+You could also just do `npx ts-node deploy.ts` if you are using npm.
+For yarn use `yarn ts-node deploy.ts`.
 
 ### Deploying to a testnet
 
