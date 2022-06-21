@@ -51,7 +51,7 @@ yarn
 
 If you like `typescript`, run `git checkout typescript` then run `yarn`
 
-## Useage
+## Usage
 
 1. Run your ganache local chain, by hitting `quickstart` on your ganache application
 
@@ -125,7 +125,7 @@ USE A METAMASK THAT DOESNT HAVE ANY REAL FUNDS IN IT. Just in case you accidenta
 
 2. Go to [Alchemy](https://alchemy.com/?a=673c802981) and create a new project on the testnet of choice (ie, kovan or Rinkeby)
 3. Grab your URL associated with the testnet, and place it into your `.env` file.
-4. Make sure you have [testnet ETH](https://faucets.chain.link/) in your account. You can [get some here.](https://faucets.chain.link/). You should get testnet ETH for the same testnet that you made a project in Alchemy (ie, Rinkeby or Kovan)
+4. Make sure you have [testnet ETH](https://faucets.chain.link/) in your account. You can [get some here](https://faucets.chain.link/). You should get testnet ETH for the same testnet that you made a project in Alchemy (ie, Rinkeby or Kovan)
 5. Run
 
 ```
