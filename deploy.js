@@ -6,6 +6,7 @@ require("dotenv").config()
 async function main() {
     // First, compile this!
     // TESTING GIT
+    // TEST 2
     // And make sure to have your ganache network up!
     let provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545")
     let wallet = new ethers.Wallet(
