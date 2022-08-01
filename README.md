@@ -6,7 +6,7 @@ Video Link : *[⌨️ (05:30:42) Lesson 5: Ethers.js Simple Storage](https://www
 
 
 # Getting Started
-# TEST
+
 ## Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
