@@ -28,7 +28,7 @@ async function main() {
     // console.log("Here is the transaction:")
     // console.log(contract.deployTransaction)
     // console.log("Here is the receipt:")
-    // console.log(transactionReceipt)
+    // console.log(deploymentReceipt)
     // const nonce = await wallet.getTransactionCount()
     // tx = {
     //   nonce: nonce,
