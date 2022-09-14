@@ -55,13 +55,13 @@ async function main() {
     // const sentTxResponse = await wallet.sendTransaction(tx);
     // console.log(resp)
 
-    let currentFavoriteNumber = await contract.retrieve()
-    console.log(`Current Favorite Number: ${currentFavoriteNumber}`)
-    console.log("Updating favorite number...")
+    let currentFavouriteNumber = await contract.retrieve()
+    console.log(`Current Favourite Number: ${currentFavouriteNumber}`)
+    console.log("Updating favourite number...")
     let transactionResponse = await contract.store(7)
     let transactionReceipt = await transactionResponse.wait()
-    currentFavoriteNumber = await contract.retrieve()
-    console.log(`New Favorite Number: ${currentFavoriteNumber}`)
+    currentFavouriteNumber = await contract.retrieve()
+    console.log(`New Favourite Number: ${currentFavouriteNumber}`)
 }
 
 main()
