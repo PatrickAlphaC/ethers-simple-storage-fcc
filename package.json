@@ -1,4 +1,7 @@
 {
+  "name": "ethers-simple-storage-fcc",
+  "version": "1.0.0",
+  "description": "",
   "dependencies": {
     "dotenv": "^14.2.0",
     "ethers": "^5.5.3",
