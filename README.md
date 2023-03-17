@@ -111,8 +111,6 @@ Change Host Name to vEthernet (WSL)
 node deploy.js
 ```
 
-
-
 ### Deploying to a testnet
 
 Make sure you have a [metamask](https://metamask.io/) or other wallet, and export the private key.
@@ -131,6 +129,33 @@ USE A METAMASK THAT DOESNT HAVE ANY REAL FUNDS IN IT. Just in case you accidenta
 ```
 node deploy.js
 ```
+---
+
+> Troubleshooting: Ethers 6.X.X instability
+
+```js
+const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL)
+                                      ^
+
+TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+```
+If you are experiencing issues with the latest version of Ethers, ethers ^6.0.2, which appears to be unstable, you can easily solve the problem by downgrading to a previous version of Ethers, such as ethers 5.7.2.
+
+To downgrade to ethers 5.7.2, run either of the following commands on your command line interface, depending on your package manager:
+
+For npm:
+
+```
+npm install ethers@5.7.2
+```
+
+For yarn:
+
+```
+yarn add ethers@5.7.2
+```
+
+---
 
 # Thank you!
 
