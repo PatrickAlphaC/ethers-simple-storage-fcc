@@ -6,6 +6,8 @@ require("dotenv").config()
 async function main() {
     // First, compile this!
     // And make sure to have your ganache network up!
+    // The old way can be seen below:
+    // let provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL)
     // On ether 6 and above, you should use like this
     let provider = new ethers.JsonRpcProvider(process.env.RPC_URL)
     // let provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL)
