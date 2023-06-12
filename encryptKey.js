@@ -7,7 +7,7 @@ async function main() {
     
     const encryptedJsonKey = await wallet.encrypt(
         process.env.PRIVATE_KEY_PASSWORD,
-        process.env.PRIVATE_KEY
+        //process.env.PRIVATE_KEY                   //here we do'nt need to pass private key
     )
     // In later version (^6.2.3 as of this commit) of etherjs, PRIVATE_KEY is inferred from wallet, so there is no need to 
     // pass private key again. 
