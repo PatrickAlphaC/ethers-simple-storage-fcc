@@ -139,7 +139,16 @@ const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL)
 
 TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
 ```
-If you are experiencing issues with the latest version of Ethers, ethers ^6.0.2, which appears to be unstable, you can easily solve the problem by downgrading to a previous version of Ethers, such as ethers 5.7.2.
+If you are experiencing issues with the latest version of Ethers, ethers ^6.0.2, try 
+
+```js
+const provider = new ethers.JsonRpcProvider(process.env.RPC_URL)
+```
+
+as providers were migrated to ethers.* in version 6 (previously ethers.providers.*).
+reference: https://docs.ethers.org/v6/migrating/#migrate-providers
+
+Or you can easily solve the problem by downgrading to a previous version of Ethers, such as ethers 5.7.2.
 
 To downgrade to ethers 5.7.2, run either of the following commands on your command line interface, depending on your package manager:
 
