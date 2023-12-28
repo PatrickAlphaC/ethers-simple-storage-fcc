@@ -28,7 +28,11 @@ async function main() {
     const contract = await contractFactory.deploy()
     // const contract = await contractFactory.deploy({ gasPrice: 100000000000 })
     const deploymentReceipt = await contract.deployTransaction.wait(1)
-    console.log(`Contract deployed to ${contract.address}`)
+    //Old method on how to get contract address
+    // console.log(`Contract deployed to ${contract.address}`)
+    //New method on how to get contract address
+    const getAddress = await contract.getAddress();
+    console.log("Contract Address: " + getAddress);
     // console.log("Here is the transaction:")
     // console.log(contract.deployTransaction)
     // console.log("Here is the receipt:")
