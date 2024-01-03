@@ -33,6 +33,9 @@ async function main() {
     // console.log(contract.deployTransaction)
     // console.log("Here is the receipt:")
     // console.log(deploymentReceipt)
+    // The new way of getting the nonce below:
+    // const nonce = await wallet.getNonce()
+    // The old way of getting the nonce below:
     // const nonce = await wallet.getTransactionCount()
     // tx = {
     //   nonce: nonce,
